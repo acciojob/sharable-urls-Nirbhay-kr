@@ -2,22 +2,21 @@
 <html>
   <body>
     <script type="text/javascript" src="./script.js">
-		<title> URL Manipulation </title>
+		
 </script>
-
-	  <form id="url-form">
-		<label for="name">Name:</label>
+<form id="urlForm">
+        <label for="name">Name:</label>
         <input type="text" id="name" name="name"><br><br>
-
-		  <label for="year">Year:</label>
+        
+        <label for="year">Year:</label>
         <input type="number" id="year" name="year"><br><br>
         
         <input type="submit" id="button" value="Generate URL">
     </form>
     
     <h3 id="url">https://localhost:8080/</h3>
-	  </form>
-	   <script>
+
+    <script>
         document.getElementById('urlForm').addEventListener('submit', function(event) {
             event.preventDefault();
             
